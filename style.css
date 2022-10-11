@@ -5,40 +5,77 @@ body{
 }
 
 #my_name{
-    background-color:#e5383b;
-    width: 50%;
+    border: solid 4px #660708;
+    background-color:#131313;
+    width: 70%;
     color: white;
-    line-height: 150px;
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
     border-radius: 20px;
     margin: 20px 0 0 20px;
     animation-name: n;
     animation-duration: 1s;
+    min-width: 310px;
+    transition:background 1s;
+}
+#my_name p{
+    margin: 2% auto 2% auto;
 }
 
-@keyframes name-zoom-in{
-    from{
-        line-height: 150px;
-        margin: 20px 0 0 20px;
-        width: 50%;
-    }
-    to{
-        line-height: 175px;
-        margin: 30px 0 0 30px;
-        width: 55%
-    }
+#social-media{
+    width: 70%;
+    margin: 40px 20px 0 auto;
+    display: flex;
+    min-width: 642.5px;
 }
 
-@keyframes name-zoom-out{
-    from{
-        line-height: 150px;
-        margin: 20px 0 0 20px;
-        width: 50%;
+.social_box{
+    width: 20%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    transition:transform 1s;
+}
+#facebook{
+    background-image: linear-gradient(to bottom right, #70B8FF, #095DD7);
+    border: 3px solid #147df5;
+    animation-name: p;
+    animation-duration: 1s;
+}
+#instagram{
+    background-image:linear-gradient(to bottom right,#405DE6,#5B51D8,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
+    border: 3px solid white;
+    animation-name: p;
+    animation-duration: 1s;
+}
+#github{
+    background-image: linear-gradient(to bottom right, #aacc00, #2b9348);
+    border: 3px solid #4078c0;
+    animation-name: p;
+    animation-duration: 1s;
+}
+#discord{
+    background-image: linear-gradient(to bottom right, #91a4f8, #5971bf);
+    border: 3px solid #425ec2;
+}
+.social_box:hover{
+    transform: rotate(20deg);
+}
+
+@keyframes przechylenie{
+    0%{
+        transform: rotate(0);
     }
-    to{
-        line-height: 175px;
-        margin: 30px 0 0 30px;
-        width: 55%
+    50%{
+        transform: rotate(20deg);
     }
+    100%{
+        transform: rotate(0deg);
+    }
+
 }
