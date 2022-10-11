@@ -1,0 +1,44 @@
+*{box-sizing: border-box;margin: 0; padding: 0;}
+html,body{width: 100%;}
+body{
+    background-color: #252525;
+}
+
+#my_name{
+    background-color:#e5383b;
+    width: 50%;
+    color: white;
+    line-height: 150px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 20px;
+    margin: 20px 0 0 20px;
+    animation-name: n;
+    animation-duration: 1s;
+}
+
+@keyframes name-zoom-in{
+    from{
+        line-height: 150px;
+        margin: 20px 0 0 20px;
+        width: 50%;
+    }
+    to{
+        line-height: 175px;
+        margin: 30px 0 0 30px;
+        width: 55%
+    }
+}
+
+@keyframes name-zoom-out{
+    from{
+        line-height: 150px;
+        margin: 20px 0 0 20px;
+        width: 50%;
+    }
+    to{
+        line-height: 175px;
+        margin: 30px 0 0 30px;
+        width: 55%
+    }
+}
