@@ -2,8 +2,10 @@
 html,body{width: 100%;}
 body{
     background-color: #252525;
+    padding-bottom: 40px;
 }
 
+/*! header */
 #my_name{
     border: solid 4px #660708;
     background-color:#131313;
@@ -21,9 +23,15 @@ body{
 #my_name p{
     margin: 2% auto 2% auto;
 }
-
+/*! main boxes*/
+#main-div{
+    width: 100%;
+    display: flex;
+}
+/*! social-media */
 #social-media{
     width: 70%;
+    height: 50%;/*? musi być ustawienie procentowe bo inaczej rozjeżdza się na całą wysokość*/
     margin: 40px 20px 0 auto;
     display: flex;
     min-width: 642.5px;
@@ -44,20 +52,14 @@ body{
 #facebook{
     background-image: linear-gradient(to bottom right, #70B8FF, #095DD7);
     border: 3px solid #147df5;
-    animation-name: p;
-    animation-duration: 1s;
 }
 #instagram{
     background-image:linear-gradient(to bottom right,#405DE6,#5B51D8,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
     border: 3px solid white;
-    animation-name: p;
-    animation-duration: 1s;
 }
 #github{
     background-image: linear-gradient(to bottom right, #aacc00, #2b9348);
     border: 3px solid #4078c0;
-    animation-name: p;
-    animation-duration: 1s;
 }
 #discord{
     background-image: linear-gradient(to bottom right, #91a4f8, #5971bf);
@@ -67,15 +69,29 @@ body{
     transform: rotate(20deg);
 }
 
-@keyframes przechylenie{
-    0%{
-        transform: rotate(0);
-    }
-    50%{
-        transform: rotate(20deg);
-    }
-    100%{
-        transform: rotate(0deg);
-    }
-
+/*! o mnie*/
+#about-me{
+    background-color: #ee9b00;
+    border: #e9d8a6 solid 3px;
+    width: 26%;
+    margin: 40px auto 0 20px;
+    min-width: 233px;
+    transition: background 1s,color 1s;
+}
+#about-me:hover{
+    background-color: #005f73;
+    color: white;
+}
+#about-me h1{
+    font-family: monaco,Consolas,Lucida Console,monospace; 
+    margin-top: 8%;
+    text-align: center;
+    font-size: 50px;
+}
+#about-me hr{
+    border: 2px #e9d8a6 solid;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
 }
