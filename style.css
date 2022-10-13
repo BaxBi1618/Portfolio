@@ -80,7 +80,7 @@ body{
     border: #e9d8a6 solid 3px;
     width: 26%;
     margin: 40px auto 0 20px;
-    min-width: 233px;
+    min-width: 390px;
     transition: background 1s,color 1s;
     height: 100%;
 }
@@ -104,7 +104,12 @@ body{
 #about-me p{
     text-align: center;
     margin:10px 10% 10px 10%;
-    font-size: 150%;
+    font-size: 125%;
+}
+#about-me h2{
+    text-align: center;
+    margin:10px auto auto;
+    font-size: 200%;
 }
 
 .my-photo{
