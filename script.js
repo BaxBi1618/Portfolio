@@ -1,13 +1,13 @@
-document.getElementById("my_name").onmouseover = function(){
-    document.getElementById("my_name").style.backgroundColor = "#e5383b"
-}
-document.getElementById("my_name").onmouseout = function(){
-    document.getElementById("my_name").style.backgroundColor = "#131313"
-}
-
-$("#my-photo").mouseover(function(){
-    $("#my-photo").css("background-image","url(image/me1.jpg)");
+$("#number-1").mouseover(function(){
+    $("#number-1").css("background-image","url(image/me1.jpg)");
 });
-$("#my-photo").mouseout(function(){
-    $("#my-photo").css("background-image","url(image/me.jpg)");
+$("#number-1").mouseout(function(){
+    $("#number-1").css("background-image","url(image/me.jpg)");
+});
+
+$("#number-2").mouseover(function(){
+    $("#number-2").css("background-image","url(image/Desk2.jpg)");
+});
+$("#number-2").mouseout(function(){
+    $("#number-2").css("background-image","url(image/Desk1.jpg)");
 });
