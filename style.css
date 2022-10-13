@@ -20,12 +20,8 @@ body{
     min-width: 600px;
     transition:background 1s;
 }
-#my_name p{
-    margin: 2% auto 2% auto;
-}
-#my_name:hover{
-    background-color:#e5383b;
-}
+#my_name p{margin: 2% auto 2% auto;}
+#my_name:hover{background-color:#e5383b;}
 /*! main boxes*/
 #main-div{
     width: 100%;
@@ -36,12 +32,17 @@ body{
     margin: 40px 20px 0 auto;
 }
 /*! social-media */
-#social-media{
+#social-media-1{
     width: 100%;
     display: flex;
     min-width: 642.5px;
 }
-
+#social-media-2{
+    width: 100%;
+    display: flex;
+    min-width: 1181px;
+    margin: 70px 0 0 0;
+}
 .social_box{
     width: 20%;
     height: 100%;
@@ -54,25 +55,24 @@ body{
     padding: 10px;
     transition:transform 1s;
 }
-#facebook{
-    background-image: linear-gradient(to bottom right, #70B8FF, #095DD7);
-    border: 3px solid #147df5;
-}
-#instagram{
-    background-image:linear-gradient(to bottom right,#405DE6,#5B51D8,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
-    border: 3px solid white;
-}
-#github{
-    background-image: linear-gradient(to bottom right, #aacc00, #2b9348);
-    border: 3px solid #4078c0;
-}
-#discord{
-    background-image: linear-gradient(to bottom right, #91a4f8, #5971bf);
-    border: 3px solid #425ec2;
-}
-.social_box:hover{
-    transform: rotate(20deg);
-}
+#facebook{background-image: linear-gradient(to bottom right, #70B8FF, #095DD7);border: 3px solid #147df5;}
+
+#instagram{background-image:linear-gradient(to bottom right,#405DE6,#5B51D8,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);border: 3px solid white;}
+
+#github{background-image: linear-gradient(to bottom right, #aacc00, #2b9348);border: 3px solid #4078c0;}
+
+#linkedin{background-image: linear-gradient(to bottom right,#0077b5,#00a0dc,#e68523,#dd5143,#8d6cab);border: 3px solid #caccce;}
+
+#discord{background-image: linear-gradient(to bottom right, #91a4f8, #5971bf);border: 3px solid #425ec2;}
+
+#steam{background-image: linear-gradient(to bottom right, #171a21, #1b2838,#2a475e,#66c0f4);border: 3px solid #c7d5e0;}
+
+#twitch{background-image: linear-gradient(to bottom right,#5316b6,#6441a5);border: 3px solid #b9a3e3;}
+
+#youtube{background-image: linear-gradient(to bottom right,#ff0000,#ff3939);border: 3px solid #ff8e8e;}
+
+.social_box:hover{transform: rotate(20deg);}
+#social-media-2 .social_box:hover{transform: rotate(-10deg);}
 
 /*! o mnie*/
 #about-me{
@@ -80,7 +80,7 @@ body{
     border: #e9d8a6 solid 3px;
     width: 26%;
     margin: 40px auto 0 20px;
-    min-width: 390px;
+    min-width: 508px;
     transition: background 1s,color 1s;
     height: 100%;
 }
@@ -121,12 +121,10 @@ body{
     transition:transform 0.5s;
     margin: 0 auto 20px auto;
 }
-.my-photo:hover{
-    transform: rotate(360deg);
-}
-#number-1{
-    background-image: url(image/me.jpg);
-}
+.my-photo:hover{transform: rotate(360deg);}
+
+#number-1{background-image: url(image/me.jpg);}
+
 #number-2{
     background-image: url(image/Desk1.jpg);
     background-position: center;
