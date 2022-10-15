@@ -81,7 +81,7 @@ body{
     width: 26%;
     margin: 40px 20px 0 20px;
     min-width: 508px;
-    transition: background 1s,color 1s;
+    transition: background 1s,color 1s,transform 1s;
     height: 100%;
     text-align: center;
 }
@@ -127,10 +127,12 @@ body{
     background-color: #ee9b00;
     color: black;
 }
-
+#div-more-about{ 
+    display: none;
+}
 
 .my-photo{
-    width: 400px;
+    width: 400px; 
     height: 400px;
     border-radius: 200px;
     border: black 4px solid;
@@ -162,5 +164,7 @@ body{
     margin: 50px 10px 0 50px;
     
 }
+/*! Email */ 
+
 
 

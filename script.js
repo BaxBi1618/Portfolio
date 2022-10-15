@@ -15,11 +15,12 @@ $("#number-2").mouseout(function(){
 let button_state = 0;
 $("#more-about-me").click(function(){
     if(button_state == 0){
-        $("#more-about-me").html("LESS ABOUT ME");
+        $("#more-about-me").text("LESS ABOUT ME")
         button_state ++;
     }
     else if(button_state == 1){
         $("#more-about-me").html("MORE ABOUT ME");
         button_state --;
     }
+    $("#div-more-about").fadeToggle(0);
 });
