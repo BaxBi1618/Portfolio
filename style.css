@@ -83,6 +83,7 @@ body{
     min-width: 508px;
     transition: background 1s,color 1s;
     height: 100%;
+    text-align: center;
 }
 #about-me:hover{
     background-color: #005f73;
@@ -104,13 +105,29 @@ body{
 #about-me p{
     text-align: center;
     margin:10px 10% 10px 10%;
-    font-size: 125%;
+    font-size: 20px;
 }
 #about-me h2{
     text-align: center;
     margin:10px auto auto;
-    font-size: 200%;
+    font-size: 30px;
 }
+#more-about-me{
+    width: 70%;
+    height: 50px;
+    margin: 20px auto 20px auto;
+    font-size: 25px;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    color: white;
+    background-color: #005f73;
+    border:#e9d8a6 solid 3px ;
+    transition: background 1s,color 1s;
+}
+#more-about-me:hover{
+    background-color: #ee9b00;
+    color: black;
+}
+
 
 .my-photo{
     width: 400px;
