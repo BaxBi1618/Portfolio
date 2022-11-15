@@ -165,6 +165,39 @@ body{
     
 }
 /*! Email */ 
+#e-mail-div{
+    height: 600px;
+    width: 97%;
+    background-color:#006466;
+    margin: 0 auto 0 20px;
+    border-radius: 50px;
+    border: black 3px solid;
+    text-align: center;
+    min-width: 1080px;
+}
+#quest-email{
+    color: white;
+    width: 95%;
+    margin: 10px auto 0 auto;
+    height: 40px;
+    border-radius: 15px;
+    border: solid 3px black;
+    background-color: #212f45;
+    font-size: 25px;
+    text-align: center;
+}
+#email-text{
+    margin-top: 20px;
+    width: 95%;
+    height: 80%;
+    border-radius: 50px;
+    border: solid 3px black;
+    background-color: #212f45;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    resize: none;
+}
 
 
 
