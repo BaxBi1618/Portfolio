@@ -26,7 +26,7 @@ for(let i = 0; i < kafelki.length; i++){
                 kafelki[i].innerHTML = "<img src='image/m2.png'>"
                 break;
             case 1:
-                kafelki[i].innerHTML = "<img src='image/m9.png'>"
+                kafelki[i].innerHTML = "<img src='image/M9.png'>"
                 break;
             case 2:
                 kafelki[i].innerHTML = "<img src='image/m5.png'>"
