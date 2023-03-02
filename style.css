@@ -35,12 +35,11 @@ body{
 #social-media-1{
     width: 100%;
     display: flex;
-    min-width: 642.5px;
 }
 #social-media-2{
     width: 100%;
     display: flex;
-    min-width: 1181px;
+    min-width: 1338px;
     margin: 70px 0 0 0;
 }
 .social_box{
@@ -91,7 +90,7 @@ body{
 }
 #about-me h1{
     font-family: monaco,Consolas,Lucida Console,monospace; 
-    margin-top: 8%;
+    margin-top: 30px;
     text-align: center;
     font-size: 50px;
 }
@@ -151,7 +150,7 @@ body{
     background-size: cover;
 }
 #side-div-2{
-    min-width: 642.5px;
+    min-width: 800px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -164,39 +163,33 @@ body{
     margin: 50px 10px 0 50px;
     
 }
-/*! Email */ 
-#e-mail-div{
-    height: 600px;
-    width: 97%;
-    background-color:#006466;
-    margin: 0 auto 0 20px;
-    border-radius: 50px;
-    border: black 3px solid;
-    text-align: center;
-    min-width: 1080px;
-}
-#quest-email{
-    color: white;
+/*! Komputer */
+#comp{
     width: 95%;
-    margin: 10px auto 0 auto;
-    height: 40px;
-    border-radius: 15px;
-    border: solid 3px black;
-    background-color: #212f45;
-    font-size: 25px;
-    text-align: center;
-}
-#email-text{
-    margin-top: 20px;
-    width: 95%;
-    height: 80%;
-    border-radius: 50px;
-    border: solid 3px black;
-    background-color: #212f45;
+    margin: 0 auto 0 auto;
+    border: solid 4px #660708;
+    background-color:#131313;
     color: white;
-    padding: 20px;
-    font-size: 20px;
-    resize: none;
+    padding: 10px 30px 10px 30px;
+    min-width: 1338px;
+    display: flex;
+}
+#info{
+    width: 80%;
+    margin: 30px auto 0 auto;
+}
+
+#cv{
+    font-size: 80px;
+    width: 300px;
+    margin: 20px auto 20px auto;
+    background-color: #ee9b00;
+    border: #e9d8a6 solid 3px;
+    border-radius: 30px;
+}
+#cv-div{
+    width: 100%;
+    text-align: center;
 }
 
 
